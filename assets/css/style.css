@@ -17,6 +17,8 @@ nav{
     padding-left:50px;
 }
 
-.holiday-type image {
-    max-height:400px;
+.holiday-type img{
+    width:100%;
+    min-height:300px;
+    overflow: hidden;
 }
