@@ -1,0 +1,9 @@
+nav{
+    min-width:100%;
+}
+
+.red-box{
+    min-width:200px;
+    min-height:300px;
+    background-color:red;
+}
