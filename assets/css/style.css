@@ -2,10 +2,17 @@ nav{
     min-width:100%;
 }
 
-.home-header-image{
+.home-image{
+     background: url(../images/city-river-home.jpg) no-repeat center center fixed; 
+}
+
+.culture-image{
+    background: url(../images/azenhas-do-mar.jpg) no-repeat center fixed;
+}
+
+.header-image{
     min-width:100%;
     min-height:400px;
-    background: url(../images/city-river-home.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
