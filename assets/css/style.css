@@ -48,3 +48,12 @@ nav{
     text-align: center;
     min-height:12rem;
 }
+
+.slideshow{
+    display:none;
+}
+
+.carousel-item img{
+    max-height:25rem;
+    max-width:50rem;
+}
