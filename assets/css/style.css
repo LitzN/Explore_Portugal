@@ -24,8 +24,27 @@ nav{
     padding-left:50px;
 }
 
-.holiday-type img{
-    width:100%;
-    min-height:300px;
+/*******INDEX PAGE*********/
+.holiday-type{
+    max-width:20rem;
+    max-height:20rem;
     overflow: hidden;
+    margin:0 auto;
+}
+
+.holiday-type img{
+    height:100%;
+    width:100%;
+}
+
+/*******CULTURE PAGE*********/
+.culture-locations img {
+        max-height:10rem;
+    max-width:10rem;
+}
+
+.culture-locations{
+    border: black 3px solid;
+    text-align: center;
+    min-height:12rem;
 }
