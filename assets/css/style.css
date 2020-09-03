@@ -111,6 +111,10 @@ h2{
     text-align:center;
 }
 
+.location-heading{
+    text-align:center;
+}
+
 .slideshow{
     display:none;
 }
@@ -135,4 +139,5 @@ and (max-width : 320px) {
   .braga{
       margin-bottom:5rem;
   }
+
 }
