@@ -1,9 +1,12 @@
+body{
+    margin:0;
+}
 nav{
     min-width:100%;
 }
 
 .home-image{
-     background: url(../images/city-river-home.jpg) no-repeat center center fixed; 
+     background: url(../images/tram.jpg) no-repeat bottom left; 
 }
 
 .culture-image{
@@ -24,6 +27,35 @@ nav{
     padding-left:50px;
 }
 
+.footer{
+    position:fixed;
+    bottom:0px;
+    background-color:black;
+    color:white;
+    font-size:1em;
+    width:100%;
+}
+
+.footer a{
+color:white;
+}
+
+.footer a:hover{
+    color:lightslategray;
+}
+
+.social{
+    text-align:right;
+    font-size:1.5em;
+}
+
+.social i {
+    padding:5px;
+}
+
+h2{
+    text-align:center;
+}
 /*******INDEX PAGE*********/
 .holiday-type{
     max-width:20rem;
@@ -37,7 +69,21 @@ nav{
     width:100%;
 }
 
+.holiday-types{
+    padding-top:40px;
+    padding-bottom:50px;
+}
+
 /*******CULTURE PAGE*********/
+
+.intro{
+    text-align:center;
+    padding-left:5rem;
+    padding-right:5rem;
+    padding-top:2.5rem;
+    padding-bottom:2rem;
+}
+
 .culture-locations img {
         max-height:10rem;
     max-width:10rem;
