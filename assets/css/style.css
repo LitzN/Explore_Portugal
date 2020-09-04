@@ -136,7 +136,7 @@ h2{
     justify-content:center;
     align-content:center;
     grid-gap:10px;
-    height:50vh; 
+    height:100%; 
 }
 
 .grid img{
@@ -163,6 +163,10 @@ h2{
 #lightbox img{
     max-width:90%;
     max-height:80%;
+}
+
+.hide{
+    display:none;
 }
 
 /* Smartphones (portrait) ----------- */

@@ -34,6 +34,19 @@ $(".braga").click(function(){
   $(".braga").css("background-color", "#d6f5f5");
 });
 
+$(".madeira-gallery").click(function(){
+    $(".madeira-gallery").addClass('hide');
+    $('.madeira-images').removeClass('hide');
+    $('.exit-madeira-gallery').removeClass('hide');
+})
+
+$(".exit-madeira-gallery").click(function(){
+    $(".exit-madeira-gallery").addClass('hide');
+    $(".madeira-images").addClass('hide');
+    $(".madeira-gallery").removeClass('hide');
+
+})
+
 const lightbox = document.createElement('div')
 lightbox.id='lightbox'
 document.body.appendChild(lightbox)
