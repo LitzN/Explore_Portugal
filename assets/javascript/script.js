@@ -33,3 +33,24 @@ $(".braga").click(function(){
   $(".culture-locations").css("background-color","white");
   $(".braga").css("background-color", "#d6f5f5");
 });
+
+const lightbox = document.createElement('div')
+lightbox.id='lightbox'
+document.body.appendChild(lightbox)
+
+const images = document.querySelectorAll('img')
+images.forEach(image => {
+    image.addEventListener('click', e =>{
+       lightbox.classList.add('active') 
+       const img = document.createElement('img')
+       img.src = image.src
+       while (lightbox.firstChild){
+           lightbox.removeChild(lightbox.firstChild)
+       }
+       lightbox.appendChild(img)
+    })
+})
+
+lightbox.addEventListener('click', e =>{
+lightbox.classList.remove('active')
+})

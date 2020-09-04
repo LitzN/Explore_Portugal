@@ -14,6 +14,10 @@ nav{
     background: url(../images/azenhas-do-mar.jpg) no-repeat center fixed;
 }
 
+.nature-image{
+    background:url(../images/nature.jpg) no-repeat center;
+}
+
 .header-image{
     min-width:100%;
     min-height:400px;
@@ -140,4 +144,41 @@ and (max-width : 320px) {
       margin-bottom:5rem;
   }
 
+}
+
+/*---------NATURE PAGE----------*/
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(3,200px);
+    justify-content:center;
+    align-content:center;
+    grid-gap:10px;
+    height:50vh; 
+}
+
+.grid img{
+    width:200px;
+    height:200px;
+}
+
+#lightbox{
+    position:fixed;
+    z-index:1000;
+    top:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.8);
+    display:none;
+}
+
+#lightbox.active{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#lightbox img{
+    max-width:90%;
+    max-height:80%;
 }
