@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family:'Acme', sans-serif;
+    text-align:center;
 }
 nav{
     min-width:100%;
@@ -109,6 +110,8 @@ h2{
     text-align: center;
     min-height:12rem;
     border-radius:25px;
+    margin-bottom:4rem;
+    margin-top:3rem;
 }
 
 .location-result{
@@ -124,7 +127,8 @@ h2{
 }
 
 .carousel-item img{
-    max-height:25rem;
+    min-height:15rem;
+    max-height:15rem;
     max-width:50rem;
 }
 
@@ -167,6 +171,10 @@ h2{
 
 .hide{
     display:none;
+}
+
+.nature-location p{
+padding:2rem 4rem;
 }
 
 /* Smartphones (portrait) ----------- */
