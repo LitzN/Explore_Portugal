@@ -128,24 +128,6 @@ h2{
     max-width:50rem;
 }
 
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-  .culture-locations img{
-      display:none;
-  }
-
-  .culture-locations{
-      min-height:5rem;
-      margin-bottom:1rem;
-  }
-
-  .braga{
-      margin-bottom:5rem;
-  }
-
-}
-
 /*---------NATURE PAGE----------*/
 
 .grid{
@@ -181,4 +163,30 @@ and (max-width : 320px) {
 #lightbox img{
     max-width:90%;
     max-height:80%;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  .culture-locations img{
+      display:none;
+  }
+
+  .culture-locations{
+      min-height:5rem;
+      margin-bottom:1rem;
+  }
+
+  .braga{
+      margin-bottom:5rem;
+  }
+
+.grid{
+    grid-template-columns: repeat(2,100px);
+}
+
+.grid img{
+    height:100px;
+    width:100px;
+}
 }
