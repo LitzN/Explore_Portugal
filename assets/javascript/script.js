@@ -47,6 +47,32 @@ $(".exit-madeira-gallery").click(function(){
 
 })
 
+$(".azores-gallery").click(function(){
+    $(".azores-gallery").addClass('hide');
+    $('.azores-images').removeClass('hide');
+    $('.exit-azores-gallery').removeClass('hide');
+})
+
+$(".exit-azores-gallery").click(function(){
+    $(".exit-azores-gallery").addClass('hide');
+    $(".azores-images").addClass('hide');
+    $(".azores-gallery").removeClass('hide');
+
+})
+
+$(".algarve-gallery").click(function(){
+    $(".algarve-gallery").addClass('hide');
+    $('.algarve-images').removeClass('hide');
+    $('.exit-algarve-gallery').removeClass('hide');
+})
+
+$(".exit-algarve-gallery").click(function(){
+    $(".exit-algarve-gallery").addClass('hide');
+    $(".algarve-images").addClass('hide');
+    $(".algarve-gallery").removeClass('hide');
+
+})
+
 const lightbox = document.createElement('div')
 lightbox.id='lightbox'
 document.body.appendChild(lightbox)
