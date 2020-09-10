@@ -68,6 +68,7 @@
 <div>
     <h2>Search by region</h2>
     <div id="map"></div>
+    <div id="legend"><h3>Legend</h3></div>
 </div>
 <div class="row footer">
 <div class="col-6">
@@ -93,7 +94,7 @@ Questions? <a href="contact.html">Contact Us Here</a></div>
 <script>
 function initMap(){
     var map= new google.maps.Map(document.getElementById("map"),{
-        zoom:4,
+        zoom:2,
         center:{
         lat:39.60199,
         lng:-8.40924
@@ -106,7 +107,10 @@ var locations = [
     {lat:39.60199,lng:-8.40924},
     {lat:41.14961,lng:-8.61099},
     {lat:38.71667,lng:-9.13333},
-    {lat:41.55032,lng:-8.42005}
+    {lat:41.55032,lng:-8.42005},
+    {lat:32.37166518,lng:-16.2749989},
+    {lat:38.305542,lng:-30.384108},
+    {lat:37.0103,lng:-7.9375}
 ];
 
 var markers = locations.map(function(location,i){
@@ -117,7 +121,7 @@ var markers = locations.map(function(location,i){
 });
 var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-    
+
 }
 </script>
 
