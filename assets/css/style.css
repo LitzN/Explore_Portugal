@@ -179,6 +179,18 @@ h2{
 padding:2rem 4rem;
 }
 
+.nature-location{
+    padding-top:3rem;
+}
+
+hr{
+border-top:2px dashed lightskyblue;
+}
+
+.information{
+    
+}
+
 /* Smartphones (portrait) ----------- */
 @media only screen 
 and (max-width : 320px) {
@@ -203,9 +215,3 @@ and (max-width : 320px) {
     height:100px;
     width:100px;
 }
- #legend{
-    font-family: Arial, sans-serif;
-    background: #fff;
-    padding: 10px;
-    margin: 10px;
-    border: 3px solid #000;}
