@@ -83,11 +83,23 @@ h2{
 }
 
 #map{
-    height:40rem;
-    width:50rem;
+    height:30rem;
+    width:30rem;
     margin:5rem auto;
 }
 
+.holiday-name{
+    position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  font-weight:bolder;
+}
+
+a{
+    color:white;
+}
 /*******CULTURE PAGE*********/
 
 .intro{
