@@ -82,8 +82,10 @@ h2{
     padding-bottom:50px;
 }
 
-.index-map{
-    padding-bottom:30px;
+#map{
+    height:40rem;
+    width:50rem;
+    margin-bottom:10rem;
 }
 
 /*******CULTURE PAGE*********/
