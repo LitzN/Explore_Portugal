@@ -73,7 +73,7 @@ h2{
 }
 
 .holiday-type img{
-    height:100%;
+    height:60%;
     width:100%;
 }
 
@@ -90,22 +90,30 @@ h2{
 
 .holiday-name{
     position: absolute;
-  top: 90%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight:bolder;
 }
 
 a{
     color:white;
 }
+
+.holiday-type-info{
+    font-size:0.8rem;
+    padding-top:1rem;
+}
+
+.map-text{
+text-align:justify;
+align-content:center;
+}
 /*******CULTURE PAGE*********/
 
 .intro{
     text-align:center;
-    padding-left:5rem;
-    padding-right:5rem;
     padding-top:2.5rem;
     padding-bottom:2rem;
 }
@@ -144,6 +152,16 @@ a{
     min-height:15rem;
     max-height:15rem;
     max-width:50rem;
+}
+
+.map-text h2{
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+
+.map-text p{
+    padding-left:2rem;
+    padding-right:2rem;
 }
 
 /*---------NATURE PAGE----------*/
@@ -204,8 +222,15 @@ border-top:2px dashed lightskyblue;
 }
 
 /* Smartphones (portrait) ----------- */
+
 @media only screen 
-and (max-width : 320px) {
+and (max-width : 430px) {
+
+    .home-image{
+        background-image:url(../images/tram-mobile.jpg);
+        background-position:right;
+    }
+
   .culture-locations img{
       display:none;
   }
@@ -226,4 +251,39 @@ and (max-width : 320px) {
 .grid img{
     height:100px;
     width:100px;
+}
+#map{
+    height:20rem;
+    width:20rem;
+}
+.map-text{
+    padding-bottom:4rem;
+}
+
+}
+
+/*------------TABLET-----------------*/
+@media only screen 
+and (min-width : 765px){
+    #map{
+        width:23rem;
+        height:23rem;
+    }
+}
+
+/*------------LAPTOP-----------------*/
+@media only screen 
+and (min-width : 1024px){
+    #map{
+        height:30rem;
+        width:30rem;
+    }
+}
+
+@media only screen
+and (max-width:321px){
+    #map{
+        width:18rem;
+        height:18rem;
+    }
 }
