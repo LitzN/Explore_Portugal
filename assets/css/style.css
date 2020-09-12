@@ -200,6 +200,14 @@ align-content:center;
 
 /*---------NATURE PAGE----------*/
 
+.nature-button{
+    border: 3px solid lightblue;
+    background-color: lightgray;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bolder;
+}
 .grid{
     display:grid;
     grid-template-columns:repeat(3,200px);
@@ -240,19 +248,30 @@ align-content:center;
 }
 
 .nature-location p{
-padding:2rem 4rem;
+padding-left:3rem;
+padding-right:3rem;
+padding-bottom:2rem;
 }
 
-.nature-location{
-    padding-top:3rem;
+.nature-location h2{
+padding-top:2rem;
+padding-bottom:2rem;
 }
 
 hr{
 border-top:2px dashed lightskyblue;
 }
 
-.information{
-    
+.algarve-gallery{
+    margin-bottom:4rem;
+}
+
+.exit-algarve-gallery{
+    margin-bottom:2rem;
+}
+
+.algarve-images{
+    padding-bottom:4rem;
 }
 
 /* Smartphones (portrait) ----------- */
