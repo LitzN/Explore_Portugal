@@ -12,7 +12,8 @@ nav{
 }
 
 .culture-image{
-    background: url(../images/azenhas-do-mar.jpg) no-repeat center fixed;
+    background: url(../images/culture/castle.jpg) no-repeat;
+    background-position:bottom right;
 }
 
 .nature-image{
