@@ -155,6 +155,19 @@ align-content:center;
     max-width:50rem;
 }
 
+.carousel-caption{
+    bottom: 0px;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+.carousel{
+    padding-bottom:3rem;
+}
+
 .map-text h2{
     padding-top:2rem;
     padding-bottom:2rem;
