@@ -117,6 +117,8 @@ align-content:center;
     text-align:center;
     padding-top:2.5rem;
     padding-bottom:2rem;
+    padding-left:2.5rem;
+    padding-right:3rem;
 }
 
 .intro h1{
@@ -178,7 +180,12 @@ align-content:center;
     max-width:10rem;
     display:inline;
     float:left;
-    padding-left:1rem;
+    margin-left:3rem;
+}
+
+.location-information p{
+    padding-left:2rem;
+    padding-right:2rem;
 }
 
 .map-text h2{
@@ -275,6 +282,12 @@ and (max-width : 430px) {
       padding-bottom:3rem;
   }
 
+  .activity{
+    margin-left: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+  }
+
 .grid{
     grid-template-columns: repeat(2,100px);
 }
@@ -295,11 +308,15 @@ and (max-width : 430px) {
 
 /*------------TABLET-----------------*/
 @media only screen 
-and (min-width : 765px){
+and (min-width: 760px) and (max-width : 768px){
     #map{
         width:23rem;
         height:23rem;
     }
+.activity{
+    margin-left:2rem;
+}
+
 }
 
 /*------------LAPTOP-----------------*/
