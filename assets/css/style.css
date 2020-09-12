@@ -34,6 +34,7 @@ nav{
     padding-left:5rem;
     padding-top:20rem;
     font-family: 'Acme',sans-serif;
+    font-size:3rem;
 }
 
 .footer{
@@ -207,6 +208,9 @@ align-content:center;
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: bolder;
+    margin:2rem auto;
+    cursor:pointer;
+    max-width:10rem;
 }
 .grid{
     display:grid;
@@ -250,10 +254,9 @@ align-content:center;
 .nature-location p{
 padding-left:3rem;
 padding-right:3rem;
-padding-bottom:2rem;
 }
 
-.nature-location h2{
+.nature-location h1{
 padding-top:2rem;
 padding-bottom:2rem;
 }
