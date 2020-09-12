@@ -127,13 +127,14 @@ align-content:center;
     max-width:10rem;
 }
 
-.culture-locations{
-    border: black 1px solid;
-    text-align: center;
-    min-height:12rem;
-    border-radius:25px;
-    margin-bottom:4rem;
-    margin-top:3rem;
+.culture-button-name{
+  position: absolute;
+  top: 5.7rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+  font-weight:bolder;
+  color:white;
 }
 
 .location-result{
@@ -231,17 +232,21 @@ and (max-width : 430px) {
         background-position:right;
     }
 
-  .culture-locations img{
-      display:none;
-  }
-
   .culture-locations{
       min-height:5rem;
-      margin-bottom:1rem;
   }
 
-  .braga{
-      margin-bottom:5rem;
+  .culture-locations img{
+      max-height:8rem;
+      max-width:8.5rem;
+  }
+
+  .culture-button-name{
+      top:4.9rem;
+  }
+
+  .braga p{
+      padding-bottom:3rem;
   }
 
 .grid{
