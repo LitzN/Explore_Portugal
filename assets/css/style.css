@@ -169,6 +169,18 @@ align-content:center;
     padding-bottom:3rem;
 }
 
+.activities i{
+    font-size: 2rem;
+    float: left;
+}
+
+.activities{
+    max-width:10rem;
+    display:inline;
+    float:left;
+    padding-left:1rem;
+}
+
 .map-text h2{
     padding-top:2rem;
     padding-bottom:2rem;
