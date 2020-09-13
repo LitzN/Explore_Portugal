@@ -81,6 +81,43 @@ $(".exit-algarve-gallery").click(function(){
 
 })
 
+
+$(".madeira-activities").click(function(){
+    $(".madeira-activity-list").removeClass("hide");
+    $(".madeira-activities").addClass("hide");
+    $(".exit-madeira-activities").removeClass("hide");
+})
+
+$(".exit-madeira-activities").click(function(){
+    $(".madeira-activities").removeClass("hide");
+    $(".madeira-activity-list").addClass("hide");
+    $(".exit-madeira-activities").addClass("hide");
+})
+
+$(".azores-activities").click(function(){
+    $(".azores-activity-list").removeClass("hide");
+    $(".azores-activities").addClass("hide");
+    $(".exit-azores-activities").removeClass("hide");
+})
+
+$(".exit-azores-activities").click(function(){
+    $(".azores-activities").removeClass("hide");
+    $(".azores-activity-list").addClass("hide");
+    $(".exit-azores-activities").addClass("hide");
+})
+
+$(".algarve-activities").click(function(){
+    $(".algarve-activity-list").removeClass("hide");
+    $(".algarve-activities").addClass("hide");
+    $(".exit-algarve-activities").removeClass("hide");
+})
+
+$(".exit-algarve-activities").click(function(){
+    $(".algarve-activities").removeClass("hide");
+    $(".algarve-activity-list").addClass("hide");
+    $(".exit-algarve-activities").addClass("hide");
+})
+
 const lightbox = document.createElement('div')
 lightbox.id='lightbox'
 document.body.appendChild(lightbox)

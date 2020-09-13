@@ -254,6 +254,7 @@ align-content:center;
 .nature-location p{
 padding-left:3rem;
 padding-right:3rem;
+text-align:justify;
 }
 
 .nature-location h1{
@@ -339,6 +340,11 @@ and (min-width: 760px) and (max-width : 768px){
     margin-left:2rem;
 }
 
+.nature-location p{
+padding-left:5rem;
+padding-right:5rem;
+}
+
 }
 
 /*------------LAPTOP-----------------*/
@@ -348,6 +354,11 @@ and (min-width : 1024px){
         height:30rem;
         width:30rem;
     }
+.nature-location p{
+padding-left:7.5rem;
+padding-right:7.5rem;
+}
+
 }
 
 @media only screen
