@@ -278,6 +278,10 @@ border-top:2px dashed lightskyblue;
     padding-bottom:4rem;
 }
 
+/*---------CONTACT-----------*/
+form{
+    max-width:80%
+}
 /* Smartphones (portrait) ----------- */
 
 @media only screen 
