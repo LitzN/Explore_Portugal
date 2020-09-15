@@ -36,6 +36,12 @@
 		</div>
 <div class="row">
     <div class="col-12">
+        <div class="success-result hide">Success! Thank you for your enquiry!</div>
+        <div class="error-result hide">Error! Please check your form</div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
         <div class="heading">Contact Us</div>
     </div>
 </div>
@@ -43,29 +49,39 @@
     <div class="col-12">
        <form onsubmit="return sendMail(this);">
   <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
+    <label for="exampleFormControlInput1">Name:</label>
     <input type="name" class="form-control" id="name" placeholder="John Smith">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
+    <label for="exampleFormControlInput1">Email address:</label>
     <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Example select</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
+    <label for="exampleFormControlSelect1">Please select which tour type you're interested in:</label>
+    <select class="form-control" id="tour-type">
+      <option>N/A</option>
+      <option>All locations</option>
+      <option>Main land locations</option>
+      <option>Island locations</option>
+    </select>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlSelect1">Please select the time you would like to travel:</label>
+    <select class="form-control" id="tour-time">
+      <option>N/A</option>
+      <option>April</option>
+      <option>June</option>
+      <option>August</option>
+      <option>September</option>
     </select>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
+    <label for="exampleFormControlTextarea1">Let us know if you have any questions or special requirements: </label>
     <textarea class="form-control" id="travelenquiry" rows="3"></textarea>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-lg btn-danger">Submit</button>
 </form>
+
     </div>
 </div>
 

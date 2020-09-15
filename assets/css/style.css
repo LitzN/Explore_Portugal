@@ -282,6 +282,12 @@ border-top:2px dashed lightskyblue;
 form{
     max-width:80%
 }
+
+.success-result{
+    min-width:50px;
+    min-height:50px;
+    background-color:purple;
+}
 /* Smartphones (portrait) ----------- */
 
 @media only screen 

@@ -6,10 +6,10 @@ function sendMail(contactForm){
     })
     .then(
         function(response) {
-            console.log("SUCCESS", response);
+            $(".success-result").removeClass("hide");
         },
         function(error) {
-            console.log("FAILED", error);
+            $(".error-result").removeClass("hide");
     });
     return false
 }
