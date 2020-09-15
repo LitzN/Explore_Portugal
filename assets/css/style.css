@@ -5,7 +5,13 @@ body{
 }
 nav{
     min-width:100%;
+    background-color:#0E1C36;
+    color:#F9FBF2;
 }
+/*
+i.fas.fa-bars{
+    color:#F9FBF2;
+}*/
 
 .home-image{
      background: url(../images/tram.jpg) no-repeat bottom left; 
@@ -20,6 +26,9 @@ nav{
     background:url(../images/nature.jpg) no-repeat center;
 }
 
+.contact-image{
+    background:url(../images/portugal-lighthouse.jpg)no-repeat center;
+}
 .header-image{
     min-width:100%;
     min-height:400px;
@@ -295,14 +304,36 @@ border-top:2px dashed lightskyblue;
 form{
     max-width:75%;
     margin: 0 auto;
-    text-align:left;
+    text-align:center;
     color: #0E1C36;
+    margin-bottom:2.5rem;
 }
 
-.success-result{
+.btn{
+    background-color:dodgerblue;
+    color:lightcyan;
+    margin:0 auto;
+}
+
+.btn:hover{
+    background-color:lightcyan;
+    color:dodgerblue;
+    border:1px solid dodgerblue;
+}
+
+.result{
     min-width:50px;
     min-height:50px;
-    background-color:purple;
+    background-color: #F9FBF2;
+    color:dodgerblue;
+    text-align:center;
+    border:1px solid dodgerblue;
+    font-size:2rem; 
+    margin-bottom:2.5rem;
+}
+
+.success-result p {
+    margin:0 auto;
 }
 /* Smartphones (portrait) ----------- */
 
@@ -352,7 +383,9 @@ and (max-width : 430px) {
 .map-text{
     padding-bottom:4rem;
 }
-
+.contact-image{
+    background-position:right top;
+}
 }
 
 /*------------TABLET-----------------*/
