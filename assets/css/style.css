@@ -123,7 +123,13 @@ align-content:center;
 }
 
 .intro h1{
-    color:red;
+    color:dodgerblue;
+}
+a:hover{
+    color:lightcyan;
+}
+a img:hover{
+    box-shadow: 5px 10px 18px dodgerblue;
 }
 
 .culture-locations img {
