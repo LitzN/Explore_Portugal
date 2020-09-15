@@ -286,8 +286,17 @@ border-top:2px dashed lightskyblue;
 }
 
 /*---------CONTACT-----------*/
+.contact-heading{
+    padding-top:2rem;
+    padding-bottom:3rem;
+    color:dodgerblue;
+}
+
 form{
-    max-width:80%
+    max-width:75%;
+    margin: 0 auto;
+    text-align:left;
+    color: #0E1C36;
 }
 
 .success-result{
