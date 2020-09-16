@@ -55,7 +55,7 @@
       </nav>
     </header>
 
-    <main role="main">
+    <main>
       <div class="row">
 			<div class="col-12">
 				<div class="home-image header-image">
@@ -93,10 +93,9 @@
           <div class="col-md-4 col-sm-12 holiday-type">
             <a href="culture.html">
               <div class="holiday-name">CULTURE</div>
-              <image
+              <img
                 src="assets/images/culture/belem-tower.jpg"
-                alt="belem tower"
-              />
+                alt="belem tower"/>
             </a>
             <div class="holiday-type-info">
               <p>
@@ -109,10 +108,9 @@
           <div class="col-md-4 col-sm-12 holiday-type">
             <a href="nature.html">
               <div class="holiday-name">NATURE</div>
-              <image
+              <img
                 src="assets/images/portugal-beach.jpg"
-                alt="Portugal beach"
-              />
+                alt="Portugal beach"/>
             </a>
             <div class="holiday-type-info">
               <p>
@@ -125,11 +123,9 @@
           <div class="col-md-4 col-sm-12 holiday-type">
             <a href="city.html">
               <div class="holiday-name">CONTACT</div>
-              <image
+              <img
                 src="assets/images/culture/porto-city.jpg"
-                alt="Porto city"
-              />
-            </a>
+                alt="Porto city"/></a>
             <div class="holiday-type-info">
               <p>
                 Any Questions? Let us know through the contact page and we will
@@ -181,7 +177,7 @@
     </main>
 
     <!-- JS, Popper.js, and jQuery -->
-    <script
+    <script type="text/javascript"
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
@@ -206,39 +202,5 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGA71AEmhtUpvdRnzM67Hk1e0v4pyyZww&callback=initMap"
     ></script>
     <script src="assets/javascript/script.js" type="text/javascript"></script>
-
-    <script>
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 2,
-          center: {
-            lat: 39.60199,
-            lng: -8.40924,
-          },
-        });
-
-        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        var locations = [
-          { lat: 41.55032, lng: -8.42005 },
-          { lat: 41.14961, lng: -8.61099 },
-          { lat: 39.60199, lng: -8.40924 },
-          { lat: 38.71667, lng: -9.13333 },
-          { lat: 37.0103, lng: -7.9375 },
-          { lat: 32.37166518, lng: -16.2749989 },
-          { lat: 38.305542, lng: -30.384108 },
-        ];
-
-        var markers = locations.map(function (location, i) {
-          return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length],
-          });
-        });
-        var markerCluster = new MarkerClusterer(map, markers, {
-          imagePath:
-            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-        });
-      }
-    </script>
   </body>
 </html>

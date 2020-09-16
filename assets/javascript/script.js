@@ -1,3 +1,37 @@
+$(document).ready(function () {
+function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 2,
+          center: {
+            lat: 39.60199,
+            lng: -8.40924,
+          },
+        });
+
+
+        var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        var locations = [
+          { lat: 41.55032, lng: -8.42005 },
+          { lat: 41.14961, lng: -8.61099 },
+          { lat: 39.60199, lng: -8.40924 },
+          { lat: 38.71667, lng: -9.13333 },
+          { lat: 37.0103, lng: -7.9375 },
+          { lat: 32.37166518, lng: -16.2749989 },
+          { lat: 38.305542, lng: -30.384108 },
+        ];
+
+        var markers = locations.map(function (location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length],
+          });
+        });
+        var markerCluster = new MarkerClusterer(map, markers, {
+          imagePath:
+            "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+        });
+      }
+
 $(".tomar").click(function(){
   $(".location-heading").html("<h1>Tomar</h1>");
   $(".carousel").addClass("slideshow");
@@ -35,7 +69,7 @@ $(".braga").click(function(){
   $(".location-heading").html("<h1>Braga</h1>");
   $(".carousel").addClass("slideshow");
   $(".braga-slideshow").removeClass("slideshow");
-  $(".location-information").html("<p>Braga is a lively city, one of the oldest in the country, and is teeming with young people who study at its universities.Every visitor to Braga must see the Bom Jesus Sanctuary, a city icon, with its monumental staircase. Amid an expanse of greenery, it offers an excellent panoramic view of the city, as do two other churches nearby: Nossa Senhora do Sameiro Sanctuary, an important place of Marian worship.</p>")
+  $(".location-information").html("<p>Braga is a lively city, one of the oldest in the country, and is teeming with young people who study at its universities.Every visitor to Braga must see the Bom Jesus Sanctuary, a city icon, with its monumental staircase. Amid an expanse of greenery, it offers an excellent panoramic view of the city, as do two other churches nearby: Nossa Senhora do Sameiro Sanctuary, an important place of Marian worship.</p>");
   $(".activities").addClass("hide");
   $(".activities-braga").removeClass("hide");
   $(".culture-locations").css("background-color","white");
@@ -138,3 +172,4 @@ images.forEach(image => {
 lightbox.addEventListener('click', e =>{
 lightbox.classList.remove('active')
 })
+});
