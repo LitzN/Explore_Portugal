@@ -66,6 +66,7 @@ color:#F9FBF2;
 .contact-image{
     background:url(../images/portugal-lighthouse.jpg)no-repeat center;
 }
+
 .header-image{
     min-width:100%;
     min-height:400px;
@@ -157,7 +158,7 @@ padding-bottom:2.5rem;
 /*******CULTURE PAGE*********/
 
 .intro{
-    text-align:center;
+    text-align:left;
     padding-top:2.5rem;
     padding-bottom:2rem;
     padding-left:2.5rem;
