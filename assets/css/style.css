@@ -60,7 +60,7 @@ color:#F9FBF2;
 
 .culture-image{
     background: url(../images/culture/castle.jpg) no-repeat;
-    background-position:bottom right;
+    background-position:center right;
 }
 
 .nature-image{
@@ -171,6 +171,7 @@ padding-bottom:2.5rem;
 
 .intro h1{
     color:dodgerblue;
+    text-align:center;
 }
 a:hover{
     color:lightcyan;
@@ -234,6 +235,9 @@ a img:hover{
 
 .carousel{
     padding-bottom:3rem;
+}
+.activities{
+    margin-right:2rem;
 }
 
 .activity i{
@@ -451,7 +455,7 @@ and (min-width: 760px) and (max-width : 768px){
         height:23rem;
     }
 .activity{
-    margin-left:2rem;
+    margin-left:1rem;
 }
 
 .nature-location p{

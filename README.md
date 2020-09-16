@@ -76,22 +76,95 @@ All code was passed through validators, Jigsaw for CSS and W3C for html. All pas
 ### **Testing if user story needs are met**
 * As a potential customer, I want to know what the company can provide and why it is better than travelling alone.
     * The home page of Explore Portugal provides details of what the company will provide( accommodation, transportation and tours). The service benefits are clear: complete package of a planned and prepared tour of the country, which would take a long time to put together alone. Another benefit gained from the service is the social aspect, travelling with a group of people rather than alone will be safer and maybe more dynamic and enjoyable.
-SCREENSHOT HOMEPAGE
+![introduction text on homepage](assets/images/screenshots/home-intro-text.PNG)
 * As a potential customer, I want to see pictures of where I will be going and information so I can decide if this is the right trip.
     * All pages contain a header image with views of Portugal, this gives people some idea of what they can see before exploring the site further. The culture & nature pages contain galleries for each location, giving people a feel for each area, as well as a brief description and activities available.
-SCREENSHOT GALLERIES>
+![Culture gallery](assets/images/screenshots/culture-gallery.PNG)
+![Nature gallery](assets/images/screenshots/nature-gallery.PNG)
 * As a customer who travels often, I want to know where I am going geographically and gather information on each of the locations.
     * The home page contains a map showing the geographic locations of all tour stops so they can see how much of the country will be travelled. The nature and culture pages contain information on all locations. Links to these pages are provided on the homepage through buttons and in the text next to the map. 
-SCREENSHOT MAP AREA>
+![introduction text on homepage](assets/images/screenshots/home-map.PNG)
 * As a busy professional I would like to know if the tours are customizable and whether I could fit one into my schedule.
-    * The homepage explains the flexibility of the tours, the months in which they occur. Allowing the customer  to fit a tour into their schedule. The contact page enquires whether customers are interested in a full or partial tour. The map on the homepage shows locations included in the partial tours, and accompanying text clarifies which locations are included in the “mainland” or “island” packages.
-SCREENSHOT HOME PAGE>
+    * The homepage explains the flexibility of the tours, the months in which they occur. Allowing the customer  to fit a tour into their schedule. The contact page enquires whether customers are interested in a full or partial tour. The map on the homepage (above) shows locations included in the partial tours, and accompanying text clarifies which locations are included in the “mainland” or “island” packages.
+![introduction text on homepage](assets/images/screenshots/home-intro-text.PNG)
 * As a potential customer interested in joining a tour, I want to be able to make contact with the company easily.
     * The contact page allows customers to enquire about a specific tour type and time and any other questions. Customers who enquire are sent an email with their enquiry details and expected wait time for a reply. The fixed footer contains a link to the contact page so it’s easily accessible from each page.
-CONTACT PAGE FORM>
+![introduction text on homepage](assets/images/screenshots/contact-page.PNG)
 * As a potential customer with specific needs, I want to be able to communicate with the company to ensure these can be met.
-    * The contact page allows potential customers to ask questions about any specific needs they may have, the tour type and time are automatically marked as “N/A” so this doesn’t need to be changed if a customer simply wants to ask a question. Again an email is sent to the customer with details of their enquiry and expected reply time.
-	CONTACT PAGE FORM
+    * The contact page (pictured above) allows potential customers to ask questions about any specific needs they may have, the tour type and time are automatically marked as “N/A” so this doesn’t need to be changed if a customer simply wants to ask a question. Again an email is sent to the customer with details of their enquiry and expected reply time.
 
+## __Testing Functionality & Responsive design__
+---
+### __Site wide__
+
+* __Navigation links:__
+    * To check these I clicked on all the navigation links from each page on the site, to ensure they worked and directed to the right page. I pressed the brand name link and it directed to the home page. When my mouse hovered over the links, the colour changed. 
+    * Used google developer tools to view the page on different screen widths, the links are compressed and a toggle navigation button appears on screen widths below a tablet and the drop down menu is functional.
+* __Footer links:__
+    * To check these I pressed the Contact link which led to the contact page. Then I pressed each of the social media icons and both directed to the correct site which opened in a separate tab. Link hover effect was functional with the links changing color.
+ 
+### Index Page
+
+* __Holiday type location buttons:__
+    * When I hover over the buttons, the hover effect appears (blue shadow). When the button is pressed it leads to the named page successfully.
+    * Used google developer tools to test whether buttons appeared stacked on screen widths smaller than a tablet.
+* __Googlemaps map:__
+    * When the page loaded, the map was successfully rendered with the locations appearing in clusters. Map size adjusts size for laptop, tablet and mobile.
+* __Links in the map text:__
+    * When I hover over the buttons, the text changes colour as planned. Pressed on every link which led to the correct page.
+    * Used google developer tools to ensure map text appears below the map on screen sizes smaller than a tablet for readability.
+### __Culture Page__
+* __Location selector buttons:__
+    * Hovered over buttons to test hover effect, a blue shadow appeared so people will know buttons can be pressed. Pressed each of the buttons, all information appeared/changed as expected and the hover effect blue shadow stayed on the selected button so it’s clear it has been selected.
+    * When viewed on smaller screen width the buttons appeared stacked, in two rows of two. 
+    * Gallery functioned properly with the image slideshow starting when the gallery was opened.
+* __Links at bottom of page:__
+    * Hovered over the links, the colour of the text changed. Pressed each of the links which led to the expected page.
+### Nature Page
+* __Nature location gallery and activities buttons:__
+    * Hovered the mouse over each of the buttons, the bow shadow hover effect appeared. All buttons function as expected when clicked, by opening or closing gallery & activities sections. Box shadow effect stays on the exit button of the corresponding feature until the feature is closed.
+* __Nature Gallery__
+    * Pressed the gallery button on each location to ensure the gallery appeared. Pressed on each image to ensure lightbox effect worked, black background with image in the center appeared when the image was pressed and was closed on the second click. 
+* __Links at the bottom of the page:__
+    * Hovered over the links, the text changed colour. Pressed each link to ensure it led to the right location.
+### __Contact Page__
+* __Form:__
+    * Tried to submit the form with none of the fields filled out. An error message appeared below the form.
+    * Tried submitting the form with an invalid email, error message displayed next to the email input field.
+    * Filled out form correctly and a success message appeared below the form. An email confirming my enquiry was also received.
+## __Bugs__
+### __Fixed__
+1. Culture location buttons were appearing at the left of the screen instead of across the whole site (on larger screens), fixed by changing the row width to 100%.
+### __Not yet fixed__
+1. A white strip appears at the side of the page on some screen widths. 
+ 
+## __Deployment__
+---
+The project was created on Gitpod and pushed to Github after each major change. The master branch was used as a source for deployment on github pages. The development version is the same as the deployed version.
+### __Steps taken to deploy__
+1. Open Github
+2. Open Explore_Portugal from the listed repositories.
+3. Under the repository name, select the settings option.
+4. Find the GitHub pages section
+5. Select the source button and choose master branch, page automatically reloads.
+6. Find the GitHub pages section again to find the link to the deployed site.
+
+For deployed version, [click here]().
+### __Steps taken to run code locally__
+1. Open Github
+2. Open Explore_Portugal from the listed repositories.
+3. Press the green code download button above the file list and copy the url which appears in the dropdown.
+4. Open Gitpod IDE.
+5. In the terminal type git clone followed by the copied link and press enter  
+ `git clone https://github.com/LitzN/Explore_Portugal.git`
+
+## __Credits__
+---
+### __Content__
+The text introduction for culture and nature locations was taken from: wikipedia, visitportugal and the crazy tourist.
+### __Media__
+The photos used in this site were obtained from pixabay
+### __Acknowledgements__
+I received inspiration for this project from the visit portugal website.
 
  
