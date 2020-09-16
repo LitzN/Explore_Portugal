@@ -74,7 +74,6 @@ $(".braga").click(function(){
   $(".activities-braga").removeClass("hide");
   $(".culture-locations").removeClass("blue-shadow");
   $(".braga").addClass("blue-shadow");
-
 });
 
 $(".madeira-gallery").click(function(){

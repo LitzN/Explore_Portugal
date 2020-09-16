@@ -249,6 +249,22 @@ a img:hover{
     padding-right:2rem;
 }
 
+.page-links{
+    width:100%;
+    border:none;
+    text-align:center;
+}
+.page-link a{
+    color:dodgerblue;
+    font-size:1rem;
+    text-decoration:none;
+    margin-top:3px;
+    margin-bottom:4px;
+}
+
+.page-link a:hover{
+color:#0E1C36;
+}
 /*---------NATURE PAGE----------*/
 
 .nature-button{
