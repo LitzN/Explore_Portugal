@@ -9,6 +9,10 @@ nav{
     color:#F9FBF2;
 }
 
+nav a{
+    color:#F9FBF2;
+}
+
 i.fas.fa-bars{
     color:#F9FBF2;
 }
@@ -98,6 +102,10 @@ h2{
 .holiday-type img{
     height:60%;
     width:100%;
+}
+
+.holiday-type a{
+    color:#F9FBF2;
 }
 
 .holiday-types{
