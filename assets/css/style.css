@@ -120,10 +120,6 @@ h2{
   font-weight:bolder;
 }
 
-a{
-    color:white;
-}
-
 .holiday-type-info{
     font-size:0.8rem;
     padding-top:1rem;
@@ -253,16 +249,11 @@ a img:hover{
     width:100%;
     border:none;
     text-align:center;
-}
-.page-link a{
-    color:dodgerblue;
-    font-size:1rem;
-    text-decoration:none;
-    margin-top:3px;
-    margin-bottom:4px;
+    margin-top:3rem;
+    margin-bottom:3rem;
 }
 
-.page-link a:hover{
+.page-links a:hover{
 color:#0E1C36;
 }
 /*---------NATURE PAGE----------*/
@@ -278,6 +269,9 @@ color:#0E1C36;
     margin:2rem auto;
     cursor:pointer;
     max-width:10rem;
+}
+.nature-button:hover{
+    box-shadow: 5px 10px 18px dodgerblue;
 }
 .grid{
     display:grid;
