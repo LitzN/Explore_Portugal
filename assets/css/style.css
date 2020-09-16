@@ -175,9 +175,20 @@ a img:hover{
     box-shadow: 5px 10px 18px dodgerblue;
 }
 
+.culture-button-row{
+    width:100%;
+}
 .culture-locations img {
         max-height:10rem;
     max-width:10rem;
+}
+
+.culture-locations img:hover{
+    box-shadow: 5px 10px 18px dodgerblue;
+}
+
+.blue-shadow{
+    box-shadow:5px 10px 18px dodgerblue;
 }
 
 .culture-button-name{
@@ -384,7 +395,7 @@ and (max-width : 430px) {
   }
 
   .braga p{
-      padding-bottom:3rem;
+      margin-bottom:3rem;
   }
 
   .activity{
