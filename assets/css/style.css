@@ -13,6 +13,43 @@ i.fas.fa-bars{
     color:#F9FBF2;
 }
 
+.footer{
+    background:#0E1C36;
+    color:#F9FBF2;
+    min-width:100%;
+    position:fixed;
+    bottom:0px;
+    font-size:1em;
+    width:100%;
+}
+
+.footer a{
+    color:lightcyan;
+}
+
+.social{
+    text-align:right;
+    font-size:1.5em;
+    padding-right:3rem;
+}
+
+.social i {
+    padding:5px;
+}
+
+.social a:hover{
+color:#F9FBF2;
+}
+
+.contact-footer{
+    text-align:left;
+    padding-left:3rem;
+}
+
+.contact-footer a:hover{
+    color:#F9FBF2;
+}
+
 .home-image{
      background: url(../images/tram.jpg) no-repeat bottom left; 
 }
@@ -44,32 +81,6 @@ i.fas.fa-bars{
     padding-top:20rem;
     font-family: 'Acme',sans-serif;
     font-size:3rem;
-}
-
-.footer{
-    position:fixed;
-    bottom:0px;
-    background-color:black;
-    color:white;
-    font-size:1em;
-    width:100%;
-}
-
-.footer a{
-color:white;
-}
-
-.footer a:hover{
-    color:lightslategray;
-}
-
-.social{
-    text-align:right;
-    font-size:1.5em;
-}
-
-.social i {
-    padding:5px;
 }
 
 h2{
@@ -120,6 +131,28 @@ a{
 .map-text{
 text-align:justify;
 align-content:center;
+padding-bottom:2.5rem;
+}
+
+.map-text h2{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    color:dodgerblue;
+}
+
+.map-text p{
+    padding-left:2rem;
+    padding-right:2rem;
+    text-align:center;
+}
+
+.map-text a{
+    color:dodgerblue;
+    text-decoration:none;
+}
+
+.map-text a:hover{
+ color:#0E1C36;
 }
 /*******CULTURE PAGE*********/
 
@@ -204,22 +237,12 @@ a img:hover{
     padding-right:2rem;
 }
 
-.map-text h2{
-    padding-top:2rem;
-    padding-bottom:2rem;
-}
-
-.map-text p{
-    padding-left:2rem;
-    padding-right:2rem;
-    text-align:center;
-}
-
 /*---------NATURE PAGE----------*/
 
 .nature-button{
-    border: 3px solid lightblue;
-    background-color: lightgray;
+    border: 3px solid #0E1C36;
+    background-color: dodgerblue;
+    color:#F9FBF2;
     border-radius: 5px;
     text-transform: uppercase;
     font-size: 1rem;
@@ -276,6 +299,7 @@ text-align:justify;
 .nature-location h1{
 padding-top:2rem;
 padding-bottom:2rem;
+color:dodgerblue;
 }
 
 hr{
@@ -383,6 +407,7 @@ and (max-width : 430px) {
 .map-text{
     padding-bottom:4rem;
 }
+
 .contact-image{
     background-position:right top;
 }
