@@ -30,6 +30,14 @@ the sunny theme. The dark colour was used on the navigation and footer and the l
 * As a __potential customer interested in joining a tour__, I want to be able to make contact with the company easily.
 * As a __potential customer with specific needs__, I want to be able to communicate with the company to ensure these can be met.
 
+### **Wireframes**
+Click to view wireframes for each page:
+* [Home page](assets/images/wireframes/home-wireframe.PNG)
+* [Culture Page](assets/images/wireframes/culture-1-wireframe.PNG)
+   
+   [Culture page](asset/images/wireframes/culture-2-wireframe.PNG)
+* [Nature Page](asset/images/wireframes/nature-wireframe.PNG)
+* [Contact](asset/images/wireframes/contact-wireframes.PNG)
 ## Features
 ---
 ### Site-wide features
