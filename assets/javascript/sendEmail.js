@@ -1,5 +1,3 @@
-/***CODE FOR EMAIL JS, MAKES REPLY EMAILS FUNCTIONAL******
- AND PROVIDES ERROR/SUCCESS MESSAGE********************** */
 function sendMail(contactForm){
     emailjs.send("service_abu3bfk","template_qujff7m",{
         "from_name": contactForm.name.value,
