@@ -5,15 +5,20 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!--Link below is for bootstrap which was used for page structure-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+      <!--Link below is for google fonts Acme font used throughout the site-->
       <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+     <!--Link below is for fontawesome, used for the icons across the site--->
       <script src="https://kit.fontawesome.com/c2af92f582.js" crossorigin="anonymous"></script>
+      <!--Link to custom css below-->
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
    </head>
    <body>
       <main>
          <div class="row">
             <div class="col-12">
+            <!--NAVIGATION BAR: made using bootstrap and fontawesome icons-->
                <nav class="navbar fixed-top navbar-expand-md">
                   <a class="navbar-brand ml-auto" href="index.html">Explore Portugal</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> <i class="fas fa-bars"></i> </button>
@@ -27,6 +32,7 @@
                </nav>
             </div>
          </div>
+         <!---HEADER IMAGE AND TITLE--->
          <div class="row">
             <div class="col-12">
                <div class="nature-image header-image">
@@ -34,6 +40,7 @@
                </div>
             </div>
          </div>
+         <!---MADEIRA: NATURE LOCATION--->
          <div class="row">
             <div class="col-12">
                <div class="nature-location">
@@ -46,6 +53,7 @@
                </div>
             </div>
          </div>
+         <!---MADEIRA GALLERY AND ACTIVITY BUTTONS--->
          <div class="row">
             <div class="col-6">
                <div class="madeira-gallery nature-button">Gallery</div>
@@ -56,6 +64,7 @@
                <div class="nature-button blue-shadow exit-madeira-activities hide">Hide Activities</div>
             </div>
          </div>
+         <!---MADEIRA ACTIVITY LIST----->
          <div class="row">
             <div class="col-12">
                <div class="madeira-activity-list activities hide">
@@ -75,6 +84,7 @@
                </div>
             </div>
          </div>
+         <!---MADEIRA GALLERY----->
          <div class="row">
             <div class="col-12">
                <div class="madeira-images hide">
@@ -90,6 +100,7 @@
             </div>
          </div>
          <hr>
+         <!---AZORES: NATURE LOCATION---->
          <div class="row">
             <div class="col-12">
                <div class="nature-location azores">
@@ -104,6 +115,7 @@
                </div>
             </div>
          </div>
+         <!-- AZORES GALLERY AND ACTIVITY BUTTONS--->
          <div class="row">
             <div class="col-6">
                <div class="azores-gallery nature-button">Gallery</div>
@@ -114,6 +126,7 @@
                <div class="nature-button blue-shadow exit-azores-activities hide">Hide Activities</div>
             </div>
          </div>
+         <!-----AZORES ACTIVITY LIST------->
          <div class="row">
             <div class="col-12">
                <div class="azores-activity-list activities hide">
@@ -132,6 +145,7 @@
                </div>
             </div>
          </div>
+         <!-----AZORES GALLERY------->
          <div class="row">
             <div class="col-12">
                <div class="azores-images hide">
@@ -147,6 +161,7 @@
             </div>
          </div>
          <hr>
+         <!---ALGARVE NATURE LOCATION--------------->
          <div class="nature-location algarve">
             <h1>Algarve</h1>
             <p class="information algarve">There’s no shortage of high quality beaches either. Sandy
@@ -156,6 +171,7 @@
                indulge in water sports.
             </p>
          </div>
+         <!----ALGARVE GALLERY AND ACTIVITY BUTTONS----->
          <div class="row">
             <div class="col-6">
                <div class="algarve-gallery nature-button">Gallery</div>
@@ -166,6 +182,7 @@
                <div class="nature-button exit-algarve-activities blue-shadow hide">Hide Activities</div>
             </div>
          </div>
+         <!---ALGARVE ACTIVITIES--------->
          <div class="row">
             <div class="col-12">
                <div class="algarve-activity-list activities hide">
@@ -184,6 +201,7 @@
                </div>
             </div>
          </div>
+         <!---ALGARVE GALLERY--------------->
          <div class="row">
             <div class="col-12">
                <div class="algarve-images hide">
@@ -199,10 +217,12 @@
             </div>
          </div>
          <hr>
+         <!---LINKS TO CULTURE AND CONTACT PAGES--------->
          <div class="row page-links">
             <div class="col-6"><a  href="culture.html"> Explore Culture locations</a></div>
             <div class="col-6"><a  href="contact.html"> Book a spot / enquire</a></div>
          </div>
+         <!-- FOOTER:LINK TO CONTACT PAGE AND SOCIAL MEDIA -->
          <div class="row footer">
             <div class="col-6"> Questions? <a href="contact.html">Contact Us Here</a></div>
             <div class="col-6 social"> 
@@ -211,9 +231,11 @@
             </div>
          </div>
       </main>
+      <!-- Below are the links to JS, Popper.js and Jquery used throughout the project -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <!---Link to custom javascript----->
       <script src="assets/javascript/script.js"></script>
    </body>
 </html>

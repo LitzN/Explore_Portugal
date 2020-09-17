@@ -1,9 +1,26 @@
+/***********ACROSS THE SITE**************************/
 body {
 	margin: 0;
 	font-family: 'Acme', sans-serif;
 	text-align: center;
 }
 
+a:hover {
+	color: lightcyan;
+}
+
+a img:hover {
+	box-shadow: 5px 10px 18px dodgerblue;
+}
+
+.blue-shadow {
+	box-shadow: 5px 10px 18px dodgerblue;
+}
+
+.hide {
+	display: none;
+}
+/**********NAVIGATION*************/
 nav {
 	min-width: 100%;
 	background-color: #0E1C36;
@@ -18,6 +35,19 @@ i.fas.fa-bars {
 	color: #F9FBF2;
 }
 
+.page-links {
+	width: 100%;
+	border: none;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.page-links a:hover {
+	color: #0E1C36;
+}
+
+/**********FOOTER******************/
 .footer {
 	background: #0E1C36;
 	color: #F9FBF2;
@@ -55,6 +85,7 @@ i.fas.fa-bars {
 	color: #F9FBF2;
 }
 
+/******************HEADER IMAGES******************/
 .home-image {
 	background: url(../images/tram.jpg) no-repeat bottom left;
 }
@@ -94,7 +125,7 @@ h2 {
 }
 
 
-/*******INDEX PAGE*********/
+/****************INDEX PAGE******************/
 
 .holiday-type {
 	max-width: 20rem;
@@ -117,12 +148,6 @@ h2 {
 	padding-bottom: 50px;
 }
 
-#map {
-	height: 30rem;
-	width: 30rem;
-	margin: 5rem auto;
-}
-
 .holiday-name {
 	position: absolute;
 	top: 55%;
@@ -135,6 +160,12 @@ h2 {
 .holiday-type-info {
 	font-size: 0.8rem;
 	padding-top: 1rem;
+}
+/**************MAP SECTION********************/
+#map {
+	height: 30rem;
+	width: 30rem;
+	margin: 5rem auto;
 }
 
 .map-text {
@@ -165,7 +196,7 @@ h2 {
 }
 
 
-/*******CULTURE PAGE*********/
+/****************CULTURE PAGE******************/
 
 .intro {
 	text-align: left;
@@ -179,15 +210,7 @@ h2 {
 	color: dodgerblue;
 	text-align: center;
 }
-
-a:hover {
-	color: lightcyan;
-}
-
-a img:hover {
-	box-shadow: 5px 10px 18px dodgerblue;
-}
-
+/*********CULTURE BUTTONS***************/
 .culture-button-row {
 	width: 100%;
 }
@@ -198,10 +221,6 @@ a img:hover {
 }
 
 .culture-locations img:hover {
-	box-shadow: 5px 10px 18px dodgerblue;
-}
-
-.blue-shadow {
 	box-shadow: 5px 10px 18px dodgerblue;
 }
 
@@ -222,7 +241,7 @@ a img:hover {
 .location-heading {
 	text-align: center;
 }
-
+/*************CULTUTE SLIDESHOW*********************/
 .slideshow {
 	display: none;
 }
@@ -246,6 +265,7 @@ a img:hover {
 	padding-bottom: 3rem;
 }
 
+/**********ACTIVITIES***************************/
 .activities {
 	margin-right: 2rem;
 }
@@ -267,19 +287,6 @@ a img:hover {
 	padding-right: 2rem;
 }
 
-.page-links {
-	width: 100%;
-	border: none;
-	text-align: center;
-	margin-top: 3rem;
-	margin-bottom: 3rem;
-}
-
-.page-links a:hover {
-	color: #0E1C36;
-}
-
-
 /*---------NATURE PAGE----------*/
 
 .nature-button {
@@ -299,6 +306,19 @@ a img:hover {
 	box-shadow: 5px 10px 18px dodgerblue;
 }
 
+.algarve-gallery {
+	margin-bottom: 4rem;
+}
+
+.exit-algarve-gallery {
+	margin-bottom: 2rem;
+}
+
+.algarve-images {
+	padding-bottom: 4rem;
+}
+
+/***********NATURE GALLERY written with help from youtube video, link in readme credits**********************/
 .grid {
 	display: grid;
 	grid-template-columns: repeat(3, 200px);
@@ -333,10 +353,7 @@ a img:hover {
 	max-width: 90%;
 	max-height: 80%;
 }
-
-.hide {
-	display: none;
-}
+/********************************************/
 
 .nature-location p {
 	padding-left: 3rem;
@@ -354,20 +371,7 @@ hr {
 	border-top: 2px dashed lightskyblue;
 }
 
-.algarve-gallery {
-	margin-bottom: 4rem;
-}
-
-.exit-algarve-gallery {
-	margin-bottom: 2rem;
-}
-
-.algarve-images {
-	padding-bottom: 4rem;
-}
-
-
-/*---------CONTACT-----------*/
+/*****************CONTACT****************/
 
 .contact-heading {
 	padding-top: 2rem;
@@ -411,7 +415,7 @@ form {
 }
 
 
-/* Smartphones (portrait) ----------- */
+/*-------------------Smartphones (430px) ----------- */
 
 @media only screen and (max-width: 430px) {
 	.home-image {
@@ -456,7 +460,7 @@ form {
 }
 
 
-/*------------TABLET-----------------*/
+/*****************TABLET******************/
 
 @media only screen and (min-width: 760px) and (max-width: 768px) {
 	#map {
@@ -473,7 +477,7 @@ form {
 }
 
 
-/*------------LAPTOP-----------------*/
+/****************LAPTOP**************/
 
 @media only screen and (min-width: 1024px) {
 	#map {
@@ -486,6 +490,7 @@ form {
 	}
 }
 
+/*--------------SMALLEST SMARTPHONE (320PX)---------------*/
 @media only screen and (max-width:321px) {
 	#map {
 		width: 18rem;

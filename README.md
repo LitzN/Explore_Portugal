@@ -68,7 +68,7 @@ the sunny theme. The dark colour was used on the navigation and footer and the l
 * [Jquery](https://jquery.com/), javascript and js popper was used from bootstrap to make some components functional.
 * [Fontawesome](https://fontawesome.com/) was used to add icons throughout the site.
 * [Google fonts](https://fonts.google.com/) was used for the main font style used throughout the site.
-* Free formatter was used for formatting.
+* [Free formatter](https://www.freeformatter.com/) was used for formatting.
 * [W3C Validator](https://validator.w3.org/) was used to check HTML for errors.
 * [Jigsaw validator](https://jigsaw.w3.org/css-validator/) was used to check CSS for errors.
 * [Jquery](https://jquery.com/) was used to simplify javascript.
