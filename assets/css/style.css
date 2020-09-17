@@ -1,488 +1,494 @@
-body{
-    margin:0;
-    font-family:'Acme', sans-serif;
-    text-align:center;
-}
-nav{
-    min-width:100%;
-    background-color:#0E1C36;
-    color:#F9FBF2;
+body {
+	margin: 0;
+	font-family: 'Acme', sans-serif;
+	text-align: center;
 }
 
-nav a{
-    color:#F9FBF2;
+nav {
+	min-width: 100%;
+	background-color: #0E1C36;
+	color: #F9FBF2;
 }
 
-i.fas.fa-bars{
-    color:#F9FBF2;
+nav a {
+	color: #F9FBF2;
 }
 
-.footer{
-    background:#0E1C36;
-    color:#F9FBF2;
-    min-width:100%;
-    position:fixed;
-    bottom:0px;
-    font-size:1em;
-    width:100%;
+i.fas.fa-bars {
+	color: #F9FBF2;
 }
 
-.footer a{
-    color:lightcyan;
+.footer {
+	background: #0E1C36;
+	color: #F9FBF2;
+	min-width: 100%;
+	position: fixed;
+	bottom: 0px;
+	font-size: 1em;
+	width: 100%;
 }
 
-.social{
-    text-align:right;
-    font-size:1.5em;
-    padding-right:3rem;
+.footer a {
+	color: lightcyan;
+}
+
+.social {
+	text-align: right;
+	font-size: 1.5em;
+	padding-right: 3rem;
 }
 
 .social i {
-    padding:5px;
+	padding: 5px;
 }
 
-.social a:hover{
-color:#F9FBF2;
+.social a:hover {
+	color: #F9FBF2;
 }
 
-.contact-footer{
-    text-align:left;
-    padding-left:3rem;
+.contact-footer {
+	text-align: left;
+	padding-left: 3rem;
 }
 
-.contact-footer a:hover{
-    color:#F9FBF2;
+.contact-footer a:hover {
+	color: #F9FBF2;
 }
 
-.home-image{
-     background: url(../images/tram.jpg) no-repeat bottom left; 
+.home-image {
+	background: url(../images/tram.jpg) no-repeat bottom left;
 }
 
-.culture-image{
-    background: url(../images/culture/castle.jpg) no-repeat;
-    background-position:center right;
+.culture-image {
+	background: url(../images/culture/castle.jpg) no-repeat;
+	background-position: center right;
 }
 
-.nature-image{
-    background:url(../images/nature.jpg) no-repeat center;
+.nature-image {
+	background: url(../images/nature.jpg) no-repeat center;
 }
 
-.contact-image{
-    background:url(../images/portugal-lighthouse.jpg)no-repeat center;
+.contact-image {
+	background: url(../images/portugal-lighthouse.jpg)no-repeat center;
 }
 
-.header-image{
-    min-width:100%;
-    min-height:400px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.header-image {
+	min-width: 100%;
+	min-height: 400px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-.header-text{
-    color:white;
-    padding-left:5rem;
-    padding-top:20rem;
-    font-family: 'Acme',sans-serif;
-    font-size:3rem;
+.header-text {
+	color: white;
+	padding-left: 5rem;
+	padding-top: 20rem;
+	font-family: 'Acme', sans-serif;
+	font-size: 3rem;
 }
 
-h2{
-    text-align:center;
+h2 {
+	text-align: center;
 }
+
+
 /*******INDEX PAGE*********/
-.holiday-type{
-    max-width:20rem;
-    max-height:20rem;
-    overflow: hidden;
-    margin:0 auto;
+
+.holiday-type {
+	max-width: 20rem;
+	max-height: 20rem;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
-.holiday-type img{
-    height:60%;
-    width:100%;
+.holiday-type img {
+	height: 60%;
+	width: 100%;
 }
 
-.holiday-type a{
-    color:#F9FBF2;
+.holiday-type a {
+	color: #F9FBF2;
 }
 
-.holiday-types{
-    padding-top:40px;
-    padding-bottom:50px;
+.holiday-types {
+	padding-top: 40px;
+	padding-bottom: 50px;
 }
 
-#map{
-    height:30rem;
-    width:30rem;
-    margin:5rem auto;
+#map {
+	height: 30rem;
+	width: 30rem;
+	margin: 5rem auto;
 }
 
-.holiday-name{
-    position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2.5rem;
-  font-weight:bolder;
+.holiday-name {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5rem;
+	font-weight: bolder;
 }
 
-.holiday-type-info{
-    font-size:0.8rem;
-    padding-top:1rem;
+.holiday-type-info {
+	font-size: 0.8rem;
+	padding-top: 1rem;
 }
 
-.map-text{
-text-align:justify;
-align-content:center;
-padding-bottom:2.5rem;
+.map-text {
+	text-align: justify;
+	align-content: center;
+	padding-bottom: 2.5rem;
 }
 
-.map-text h2{
-    padding-top:2rem;
-    padding-bottom:2rem;
-    color:dodgerblue;
+.map-text h2 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: dodgerblue;
 }
 
-.map-text p{
-    padding-left:2rem;
-    padding-right:2rem;
-    text-align:center;
+.map-text p {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	text-align: center;
 }
 
-.map-text a{
-    color:dodgerblue;
-    text-decoration:none;
+.map-text a {
+	color: dodgerblue;
+	text-decoration: none;
 }
 
-.map-text a:hover{
- color:#0E1C36;
+.map-text a:hover {
+	color: #0E1C36;
 }
+
+
 /*******CULTURE PAGE*********/
 
-.intro{
-    text-align:left;
-    padding-top:2.5rem;
-    padding-bottom:2rem;
-    padding-left:2.5rem;
-    padding-right:3rem;
+.intro {
+	text-align: left;
+	padding-top: 2.5rem;
+	padding-bottom: 2rem;
+	padding-left: 2.5rem;
+	padding-right: 3rem;
 }
 
-.intro h1{
-    color:dodgerblue;
-    text-align:center;
-}
-a:hover{
-    color:lightcyan;
-}
-a img:hover{
-    box-shadow: 5px 10px 18px dodgerblue;
+.intro h1 {
+	color: dodgerblue;
+	text-align: center;
 }
 
-.culture-button-row{
-    width:100%;
+a:hover {
+	color: lightcyan;
 }
+
+a img:hover {
+	box-shadow: 5px 10px 18px dodgerblue;
+}
+
+.culture-button-row {
+	width: 100%;
+}
+
 .culture-locations img {
-        max-height:10rem;
-    max-width:10rem;
+	max-height: 10rem;
+	max-width: 10rem;
 }
 
-.culture-locations img:hover{
-    box-shadow: 5px 10px 18px dodgerblue;
+.culture-locations img:hover {
+	box-shadow: 5px 10px 18px dodgerblue;
 }
 
-.blue-shadow{
-    box-shadow:5px 10px 18px dodgerblue;
+.blue-shadow {
+	box-shadow: 5px 10px 18px dodgerblue;
 }
 
-.culture-button-name{
-  position: absolute;
-  top: 5.7rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2.5rem;
-  font-weight:bolder;
-  color:white;
+.culture-button-name {
+	position: absolute;
+	top: 5.7rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5rem;
+	font-weight: bolder;
+	color: white;
 }
 
-.location-result{
-    text-align:center;
+.location-result {
+	text-align: center;
 }
 
-.location-heading{
-    text-align:center;
+.location-heading {
+	text-align: center;
 }
 
-.slideshow{
-    display:none;
+.slideshow {
+	display: none;
 }
 
-.carousel-item img{
-    min-height:15rem;
-    max-height:15rem;
-    max-width:50rem;
+.carousel-item img {
+	min-height: 15rem;
+	max-height: 15rem;
+	max-width: 50rem;
 }
 
-.carousel-caption{
-    bottom: 0px;
-    left: 0;
-    background-color: rgba(0,0,0,0.5);
-    width: 100%;
-    padding-top:0;
-    padding-bottom:0;
+.carousel-caption {
+	bottom: 0px;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-.carousel{
-    padding-bottom:3rem;
-}
-.activities{
-    margin-right:2rem;
+.carousel {
+	padding-bottom: 3rem;
 }
 
-.activity i{
-    font-size: 2rem;
-    float: left;
+.activities {
+	margin-right: 2rem;
 }
 
-.activity{
-    max-width:10rem;
-    display:inline;
-    float:left;
-    margin-left:3rem;
+.activity i {
+	font-size: 2rem;
+	float: left;
 }
 
-.location-information p{
-    padding-left:2rem;
-    padding-right:2rem;
+.activity {
+	max-width: 10rem;
+	display: inline;
+	float: left;
+	margin-left: 3rem;
 }
 
-.page-links{
-    width:100%;
-    border:none;
-    text-align:center;
-    margin-top:3rem;
-    margin-bottom:3rem;
+.location-information p {
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
-.page-links a:hover{
-color:#0E1C36;
+.page-links {
+	width: 100%;
+	border: none;
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 }
+
+.page-links a:hover {
+	color: #0E1C36;
+}
+
+
 /*---------NATURE PAGE----------*/
 
-.nature-button{
-    border: 3px solid #0E1C36;
-    background-color: dodgerblue;
-    color:#F9FBF2;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: bolder;
-    margin:2rem auto;
-    cursor:pointer;
-    max-width:10rem;
-}
-.nature-button:hover{
-    box-shadow: 5px 10px 18px dodgerblue;
-}
-.grid{
-    display:grid;
-    grid-template-columns:repeat(3,200px);
-    justify-content:center;
-    align-content:center;
-    grid-gap:10px;
-    height:100%; 
+.nature-button {
+	border: 3px solid #0E1C36;
+	background-color: dodgerblue;
+	color: #F9FBF2;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-weight: bolder;
+	margin: 2rem auto;
+	cursor: pointer;
+	max-width: 10rem;
 }
 
-.grid img{
-    width:200px;
-    height:200px;
+.nature-button:hover {
+	box-shadow: 5px 10px 18px dodgerblue;
 }
 
-#lightbox{
-    position:fixed;
-    z-index:1000;
-    top:0;
-    width:100%;
-    height:100%;
-    background-color:rgba(0, 0, 0, 0.8);
-    display:none;
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	height: 100%;
 }
 
-#lightbox.active{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.grid img {
+	width: 200px;
+	height: 200px;
 }
 
-#lightbox img{
-    max-width:90%;
-    max-height:80%;
+#lightbox {
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: none;
 }
 
-.hide{
-    display:none;
+#lightbox.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.nature-location p{
-padding-left:3rem;
-padding-right:3rem;
-text-align:justify;
+#lightbox img {
+	max-width: 90%;
+	max-height: 80%;
 }
 
-.nature-location h1{
-padding-top:2rem;
-padding-bottom:2rem;
-color:dodgerblue;
+.hide {
+	display: none;
 }
 
-hr{
-border-top:2px dashed lightskyblue;
+.nature-location p {
+	padding-left: 3rem;
+	padding-right: 3rem;
+	text-align: justify;
 }
 
-.algarve-gallery{
-    margin-bottom:4rem;
+.nature-location h1 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	color: dodgerblue;
 }
 
-.exit-algarve-gallery{
-    margin-bottom:2rem;
+hr {
+	border-top: 2px dashed lightskyblue;
 }
 
-.algarve-images{
-    padding-bottom:4rem;
+.algarve-gallery {
+	margin-bottom: 4rem;
 }
+
+.exit-algarve-gallery {
+	margin-bottom: 2rem;
+}
+
+.algarve-images {
+	padding-bottom: 4rem;
+}
+
 
 /*---------CONTACT-----------*/
-.contact-heading{
-    padding-top:2rem;
-    padding-bottom:3rem;
-    color:dodgerblue;
+
+.contact-heading {
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	color: dodgerblue;
 }
 
-form{
-    max-width:75%;
-    margin: 0 auto;
-    text-align:center;
-    color: #0E1C36;
-    margin-bottom:2.5rem;
+form {
+	max-width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	color: #0E1C36;
+	margin-bottom: 2.5rem;
 }
 
-.btn{
-    background-color:dodgerblue;
-    color:lightcyan;
-    margin:0 auto;
+.btn {
+	background-color: dodgerblue;
+	color: lightcyan;
+	margin: 0 auto;
 }
 
-.btn:hover{
-    background-color:lightcyan;
-    color:dodgerblue;
-    border:1px solid dodgerblue;
+.btn:hover {
+	background-color: lightcyan;
+	color: dodgerblue;
+	border: 1px solid dodgerblue;
 }
 
-.result{
-    min-width:50px;
-    min-height:50px;
-    background-color: #F9FBF2;
-    color:dodgerblue;
-    text-align:center;
-    border:1px solid dodgerblue;
-    font-size:2rem; 
-    margin-bottom:2.5rem;
+.result {
+	min-width: 50px;
+	min-height: 50px;
+	background-color: #F9FBF2;
+	color: dodgerblue;
+	text-align: center;
+	border: 1px solid dodgerblue;
+	font-size: 2rem;
+	margin-bottom: 2.5rem;
 }
 
 .success-result p {
-    margin:0 auto;
+	margin: 0 auto;
 }
+
+
 /* Smartphones (portrait) ----------- */
 
-@media only screen 
-and (max-width : 430px) {
-
-    .home-image{
-        background-image:url(../images/tram-mobile.jpg);
-        background-position:right;
-    }
-
-  .culture-locations{
-      min-height:5rem;
-  }
-
-  .culture-locations img{
-      max-height:8rem;
-      max-width:8.5rem;
-  }
-
-  .culture-button-name{
-      top:4.9rem;
-  }
-
-  .braga p{
-      margin-bottom:3rem;
-  }
-
-  .activity{
-    margin-left: 0;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-  }
-
-.grid{
-    grid-template-columns: repeat(2,100px);
+@media only screen and (max-width: 430px) {
+	.home-image {
+		background-image: url(../images/tram-mobile.jpg);
+		background-position: right;
+	}
+	.culture-locations {
+		min-height: 5rem;
+	}
+	.culture-locations img {
+		max-height: 8rem;
+		max-width: 8.5rem;
+	}
+	.culture-button-name {
+		top: 4.9rem;
+	}
+	.braga p {
+		margin-bottom: 3rem;
+	}
+	.activity {
+		margin-left: 0;
+		padding-bottom: 2rem;
+		padding-left: 2rem;
+	}
+	.grid {
+		grid-template-columns: repeat(2, 100px);
+	}
+	.grid img {
+		height: 100px;
+		width: 100px;
+	}
+	#map {
+		height: 20rem;
+		width: 20rem;
+	}
+	.map-text {
+		padding-bottom: 4rem;
+	}
+	.contact-image {
+		background-position: right top;
+	}
 }
 
-.grid img{
-    height:100px;
-    width:100px;
-}
-#map{
-    height:20rem;
-    width:20rem;
-}
-.map-text{
-    padding-bottom:4rem;
-}
-
-.contact-image{
-    background-position:right top;
-}
-}
 
 /*------------TABLET-----------------*/
-@media only screen 
-and (min-width: 760px) and (max-width : 768px){
-    #map{
-        width:23rem;
-        height:23rem;
-    }
-.activity{
-    margin-left:1rem;
+
+@media only screen and (min-width: 760px) and (max-width: 768px) {
+	#map {
+		width: 23rem;
+		height: 23rem;
+	}
+	.activity {
+		margin-left: 1rem;
+	}
+	.nature-location p {
+		padding-left: 5rem;
+		padding-right: 5rem;
+	}
 }
 
-.nature-location p{
-padding-left:5rem;
-padding-right:5rem;
-}
-
-}
 
 /*------------LAPTOP-----------------*/
-@media only screen 
-and (min-width : 1024px){
-    #map{
-        height:30rem;
-        width:30rem;
-    }
-.nature-location p{
-padding-left:7.5rem;
-padding-right:7.5rem;
+
+@media only screen and (min-width: 1024px) {
+	#map {
+		height: 30rem;
+		width: 30rem;
+	}
+	.nature-location p {
+		padding-left: 7.5rem;
+		padding-right: 7.5rem;
+	}
 }
 
-}
-
-@media only screen
-and (max-width:321px){
-    #map{
-        width:18rem;
-        height:18rem;
-    }
+@media only screen and (max-width:321px) {
+	#map {
+		width: 18rem;
+		height: 18rem;
+	}
 }
