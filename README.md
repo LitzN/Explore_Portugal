@@ -37,7 +37,7 @@ Click to view wireframes for each page:
    
    [Culture page](asset/images/wireframes/culture-2-wireframe.PNG)
 * [Nature Page](asset/images/wireframes/nature-wireframe.PNG)
-* [Contact](asset/images/wireframes/contact-wireframes.PNG)
+* [Contact](asset/images/wireframes/contact-wireframe.PNG)
 ## Features
 ---
 ### Site-wide features
