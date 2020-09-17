@@ -85,6 +85,15 @@ i.fas.fa-bars {
 	color: #F9FBF2;
 }
 
+.error-message-404{
+    margin-top:2rem;
+    margin-bottom:3rem;
+}
+
+.error-message-404 a:hover{
+    color:#0E1C36;
+}
+
 /******************HEADER IMAGES******************/
 .home-image {
 	background: url(../images/tram.jpg) no-repeat bottom left;
@@ -103,8 +112,8 @@ i.fas.fa-bars {
 	background: url(../images/portugal-lighthouse.jpg)no-repeat center;
 }
 
-.page-not-found-image{
-    background:url(..images/portugal-beach.jpg);
+.not-found-image{
+    background: url(../images/portugal-beach.jpg) no-repeat;
 }
 
 .header-image {
