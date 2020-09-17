@@ -109,7 +109,7 @@ i.fas.fa-bars {
 }
 
 .contact-image {
-	background: url(../images/portugal-lighthouse.jpg)no-repeat center bottom;
+	background: url(../images/portugal-lighthouse.jpg)no-repeat top right;
 }
 
 .not-found-image{
@@ -501,6 +501,10 @@ form {
 		padding-left: 7.5rem;
 		padding-right: 7.5rem;
 	}
+
+    .carousel-item img{
+        max-height:none;
+    }
 }
 
 /*--------------SMALLEST SMARTPHONE (320PX)---------------*/
