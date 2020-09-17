@@ -109,11 +109,11 @@ i.fas.fa-bars {
 }
 
 .contact-image {
-	background: url(../images/portugal-lighthouse.jpg)no-repeat center;
+	background: url(../images/portugal-lighthouse.jpg)no-repeat center bottom;
 }
 
 .not-found-image{
-    background: url(../images/portugal-beach.jpg) no-repeat;
+    background: url(../images/portugal-beach.jpg) no-repeat center;
 }
 
 .header-image {

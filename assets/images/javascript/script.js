@@ -1,4 +1,3 @@
-/********CODE FROM GOOGLEMAPS API TO MAKE MAP FUNCTIONAL****/
 function initMap() {
         var map = new google.maps.Map(document.getElementById("map"), {
           zoom: 2,
@@ -31,7 +30,7 @@ function initMap() {
             "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
         });
       }
-/*******LOCATION BUTTON ACTIONS******************* */
+
 $(".tomar").click(function(){
   $(".location-heading").html("<h1>Tomar</h1>");
   $(".carousel").addClass("slideshow");
@@ -152,8 +151,6 @@ $(".exit-algarve-activities").click(function(){
     $(".exit-algarve-activities").addClass("hide");
 })
 
-/***CODE FOR LIGHTBOX: written with help from youtube tutorial
- * linked in read me********************************** */
 const lightbox = document.createElement('div')
 lightbox.id='lightbox'
 document.body.appendChild(lightbox)
