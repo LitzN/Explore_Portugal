@@ -103,6 +103,10 @@ i.fas.fa-bars {
 	background: url(../images/portugal-lighthouse.jpg)no-repeat center;
 }
 
+.page-not-found-image{
+    background:url(..images/portugal-beach.jpg);
+}
+
 .header-image {
 	min-width: 100%;
 	min-height: 400px;

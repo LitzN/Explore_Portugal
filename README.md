@@ -35,20 +35,20 @@ Click to view wireframes for each page:
 * [Home page](assets/images/wireframes/home-wireframe.PNG)
 * [Culture Page](assets/images/wireframes/culture-1-wireframe.PNG)
    
-   [Culture page](asset/images/wireframes/culture-2-wireframe.PNG)
-* [Nature Page](asset/images/wireframes/nature-wireframe.PNG)
-* [Contact](asset/images/wireframes/contact-wireframe.PNG)
+   [Culture page](assets/images/wireframes/culture-2-wireframe.PNG)
+* [Nature Page](assets/images/wireframes/nature-wireframe.PNG)
+* [Contact](assets/images/wireframes/contact-wireframe.PNG)
 ## Features
 ---
 ### Site-wide features
 * __Navigation__ bar is with a fixed top so navigation is easy, the colour is dark to contrast with the header images on each page and it is collapsable, with a hamburger menu appearing on smaller screen widths.
 * __Footer__, fixed to the bottom of the page with a link to the contact page so visitors are able to get to the contact section quickly and easily from any page, the social media links open in a seperate tab.
-* __Custom 404__ page is displayed if there is a problem with finding a page, the page contains a link back to the homepage.
+* __Custom 404__ page is displayed if there is a problem with finding a page, the page contains a link back to the homepage and a navigation bar to reach the rest of the pages.
 ### Index page
 * __Large vibrant header image__ of a tram and bright buildings, this is intended to produce a positive reaction from visitors and fits with the fact that the site is for a travel company. As this is the first thing a visitor will see, the image is different for smaller screen widths in order to produce the same positive effect. 
 * __Introduction text__ contains information on what services the company provides.
 * __Holiday type buttons__ introduce visitors to the focus of the tours in each of the locations. On hovering over the images, a blue shadow appears and the text darkens, ensuring visitors know the images are clickable. Below the images is a brief description and invitation to view the locations.
-* __Map and Map text__, this section uses the google maps API to display a map  of the tour stops offered by the company. Visitors will be able to see exactly which locations are included, in what order and how much of the country the trip will cover. The packages are also outlined in the map text and in which section a specific location can be found through a text link. 
+* __Map and Map text__, this section uses the google maps API to display a map  of the tour stops offered by the company. Visitors will be able to see exactly which locations are included, in what order and how much of the country the trip will cover. The packages are also outlined in the map text. The section in which a specific location can be found is also avaliable through a text link. 
 ### Culture Page
 * __Strong header image__ of a castle, gives visitors an idea of what culture locations to expect.
 * __Introduction text__ gives information about Portugal’s long history and describes the influences in portugese culture.
@@ -64,11 +64,13 @@ Click to view wireframes for each page:
 ## Features left to implement
 1. Add a button at the bottom of each page to scroll to the top.
 2. Make location names in the map text link to the right section in the culture page without visitor having to select the name.
+3. Add a next and previous button to nature galleries.
 
 ## Technologies Used
 
 * __HTML__ was used to build all the pages for the site.
 * __CSS__ was used to style the html.
+* Wire frames were made with [Wireframes.cc](https://wireframe.cc/) and [Mockplus](https://www.mockplus.com/).
 * __Javascript__ was used to add responsive features and APIs to the site
 * [Google maps API](https://developers.google.com/maps/documentation/javascript/overview) was used to produce the map on the homepage
 * [Emailjs](https://www.emailjs.com/) was used for the confirmation email feature on the contact page
@@ -114,7 +116,9 @@ All code was passed through validators, Jigsaw for CSS and W3C for html. All pas
     * Used google developer tools to view the page on different screen widths, the links are compressed and a toggle navigation button appears on screen widths below a tablet and the drop down menu is functional.
 * __Footer links:__
     * To check these I pressed the Contact link which led to the contact page. Then I pressed each of the social media icons and both directed to the correct site which opened in a separate tab. Link hover effect was functional with the links changing color.
- 
+* __Custom 404 Page__
+    * To check this is functional, I typed a file name which doesn't exist after the url on the browser, which bought me to the custome 404 page as expected.
+
 ### Index Page
 
 * __Holiday type location buttons:__
@@ -149,7 +153,7 @@ All code was passed through validators, Jigsaw for CSS and W3C for html. All pas
 1. Culture location buttons were appearing at the left of the screen instead of across the whole site (on larger screens), fixed by changing the row width to 100%.
 ### __Not yet fixed__
 1. A white strip appears at the side of the page on some screen widths. 
-2. 
+2. Activities in culture page appear on the left on large screen sizes.
 ## __Deployment__
 ---
 The project was created on Gitpod and pushed to Github after each major change. The master branch was used as a source for deployment on github pages. The development version is the same as the deployed version.
