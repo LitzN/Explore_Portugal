@@ -21,45 +21,48 @@
       <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
    </head>
    <body>
-      <header>
-      <!--NAVIGATION BAR: made using bootstrap and fontawesome icons-->
-         <nav class="navbar navbar-expand-md fixed-top">
-            <a class="navbar-brand" href="index.html">Explore Portugal</a>
-            <button
-               class="navbar-toggler"
-               type="button"
-               data-toggle="collapse"
-               data-target="#navbarSupportedContent"
-               aria-controls="navbarSupportedContent"
-               aria-expanded="false"
-               aria-label="Toggle navigation"
-               >
-            <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                     <a class="nav-link" href="index.html"
-                        >Home <span class="sr-only">(current)</span></a
-                        >
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="culture.html">Culture</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link" href="nature.html">Nature</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-               </ul>
-            </div>
-         </nav>
-      </header>
       <main>
+         <div class="row">
+            <div class="col">
+            <!--NAVIGATION BAR: made using bootstrap and fontawesome icons-->
+               <nav class="navbar navbar-expand-md fixed-top">
+                  <div><image class="logo-flag" src="https://cdn.pixabay.com/photo/2017/08/30/13/15/portugal-2697043_1280.jpg"></image></div>
+                  <a class="navbar-brand" href="index.html">Explore Portugal</a>
+                  <button
+                     class="navbar-toggler"
+                     type="button"
+                     data-toggle="collapse"
+                     data-target="#navbarSupportedContent"
+                     aria-controls="navbarSupportedContent"
+                     aria-expanded="false"
+                     aria-label="Toggle navigation"
+                     >
+                  <i class="fas fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                           <a class="nav-link" href="index.html"
+                              >Home <span class="sr-only">(current)</span></a
+                              >
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="culture.html">Culture</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link" href="nature.html">Nature</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </div>
       <!----HEADER IMAGE---->
          <div class="row">
-            <div class="col-12">
+            <div class="col-12 p-0">
                <div class="home-image header-image">
                   <h1 class="header-text">EXPLORE PORTUGAL</h1>
                </div>
@@ -70,7 +73,7 @@
             <div class="row">
                <div class="col-12">
                   <div class="intro">
-                     <h1 class="text-center">Bem-Vinda!</h1>
+                     <h1 class="text-center my-4">Bem-Vinda!</h1>
                      <p>
                         Explore Portugal provide a flexible group tour service including
                         seven breathtaking locations full of history and natural beauty.
@@ -164,10 +167,10 @@
          </div>
          <!-- FOOTER:LINK TO CONTACT PAGE AND SOCIAL MEDIA -->
          <div class="row footer fixed-bottom">
-            <div class="contact-footer col-6">
+            <div class="contact-footer col-8">
                <a href="contact.html">Questions? Contact Us Here</a>
             </div>
-            <div class="col-6 social">
+            <div class="col-4 social">
                <a href="https://www.instagram.com/" target="_blank"
                   ><i class="fab fa-instagram"></i
                   ></a>
