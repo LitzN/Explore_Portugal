@@ -240,6 +240,11 @@ h2 {
 	width: 100%;
 }
 
+.culture-locations{
+	max-height: 10rem;
+	max-width: 10rem;
+}
+
 .culture-locations img {
 	max-height: 10rem;
 	max-width: 10rem;
@@ -252,7 +257,7 @@ h2 {
 .culture-button-name {
 	position: absolute;
 	top: 5.7rem;
-	left: 50%;
+	left: 40%;
 	transform: translate(-50%, -50%);
 	font-size: 2.5rem;
 	font-weight: bolder;
@@ -305,11 +310,6 @@ h2 {
 	display: inline;
 	float: left;
 	margin-left: 3rem;
-}
-
-.location-information p {
-	padding-left: 2rem;
-	padding-right: 2rem;
 }
 
 /*---------NATURE PAGE----------*/
@@ -480,6 +480,11 @@ form {
 	}
 	.contact-image {
 		background-position: right top;
+	}
+
+	.intro{
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 }
 
