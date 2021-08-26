@@ -257,7 +257,7 @@ h2 {
 .culture-button-name {
 	position: absolute;
 	top: 5.7rem;
-	left: 40%;
+	left: 6rem;
 	transform: translate(-50%, -50%);
 	font-size: 2.5rem;
 	font-weight: bolder;
@@ -455,6 +455,7 @@ form {
 	}
 	.culture-button-name {
 		top: 4.9rem;
+		left:5.5rem;
 	}
 	.braga p {
 		margin-bottom: 3rem;
@@ -463,6 +464,12 @@ form {
 		margin-left: 0;
 		padding-bottom: 2rem;
 		padding-left: 2rem;
+	}
+	.n-activity{
+		margin-left:20%;
+	}
+	.n-activity p{
+		font-size: small;
 	}
 	.grid {
 		grid-template-columns: repeat(2, 100px);
@@ -498,6 +505,10 @@ form {
 	}
 	.activity {
 		margin-left: 1rem;
+	}
+
+	.n-activity{
+		margin-left:2.5rem !important;
 	}
 	.nature-location p {
 		padding-left: 5rem;
