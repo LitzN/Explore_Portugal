@@ -121,7 +121,7 @@ i.fas.fa-bars {
 }
 
 .contact-image {
-	background: url(../images/portugal-lighthouse.jpg)no-repeat top right;
+	background: url(../images/phone.jpg)no-repeat top right;
 }
 
 .not-found-image{
@@ -486,7 +486,7 @@ form {
 		padding-bottom: 4rem;
 	}
 	.contact-image {
-		background-position: right top;
+		background-position: left top;
 	}
 
 	.intro{
